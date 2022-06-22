@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+#cabeçalho {
+    background-color:yellow;
+    width: auto;
+    height: 200px;
+}
+#menu {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+}
+#menu li {
+    background-color: blue;
+    color:aliceblue;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+#menu li:hover {
+background-color: red;
+color: yellow;
+}
+#principal {
+    background: url("../img/foto\ teste.jpg") no-repeat center center;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+}
